@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <style>
+        .matrix-c {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .col {
+            display: flex;
+        }
+
+        input {
+            max-width: 50px;
+            aspect-ratio: 1;
+            margin: 10px;
+            font-size:50px;
+        }
+
+        .nbr {
+            margin-top: 50px;
+        }
+        ._2{
+            margin-left:50px;
+        }
+        .main-c{
+            display:flex;
+        }
+        .roww{
+            font-size:50px;
+            width:50px;
+            height:50px;
+            margin:7px;
+            border:1px solid;
+        }
+        .credit{
+            font-size:1.5vh;
+            color:#ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="credit">fait par Adrian Vlasov</div>
+    <div class="main-c">
+        <div class="matrix-c _1">
+        </div>
+        <div class="matrix-c _2">
+        </div>
+        
+        <div class="matrix-c _3">
+        </div>
+    </div>
+    <div class="nbr">
+        <span>Matrice : </span>
+        <input type="text" id="x">
+        <button id="makegui">Faire interface</button>
+        <button id="calc">calculer</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
