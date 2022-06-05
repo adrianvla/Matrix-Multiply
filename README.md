@@ -1,7 +1,7 @@
 # Matrix-Multiply
 multiply square matrixes
 
-### By using, downloading, adapting in any shape or form this project, you agree to The MIT License (MIT) . This work is licensed under the same license.
+### By using, downloading, adapting in any shape or form this project, you agree to The MIT License (MIT) . This work is licensed under the same license (excluding jquery.js).
 
 
 Copyright © 2022 Adrian Vlasov
